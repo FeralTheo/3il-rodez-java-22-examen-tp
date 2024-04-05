@@ -1,12 +1,14 @@
 package src;
 
+import java.util.Date;
+
 public class Tache {
 	String titre;
 	String description;
-	String dateEcheance;
+	Date dateEcheance;
 	Priorite priorite;
 	
-	public Tache(String titre, String description, String dateEcheance) {
+	public Tache(String titre, String description, Date dateEcheance) {
 		super();
 		this.titre = titre;
 		this.description = description;
@@ -24,10 +26,10 @@ public class Tache {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public String getDateEcheance() {
+	public Date getDateEcheance() {
 		return dateEcheance;
 	}
-	public void setDateEcheance(String dateEcheance) {
+	public void setDateEcheance(Date dateEcheance) {
 		this.dateEcheance = dateEcheance;
 	}
 	
