@@ -3,6 +3,8 @@ package src;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.io.*;
+
 /*
  * Permet de stocker un ensemble de tache pour 
  * en faire une liste
@@ -33,4 +35,12 @@ public class Liste<T> {
 			listDeTaches.get(i).afficherTache();
 		}
 	}
+	/*	TO-DO 
+	 * 	Modifier le code pour que les taches soit 
+	 *  enregistées dans un fichier texte.
+	 * 
+	 * 
+	 * 
+	 */
 }
+
