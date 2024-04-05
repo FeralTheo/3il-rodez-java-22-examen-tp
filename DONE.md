@@ -7,7 +7,7 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 ### Ajout d'une tâche
 
 - [ ] Formulaire de saisie des détails de la tâche.
-- [ ] Bouton "Ajouter".
+- [+-] Bouton "Ajouter".
 - [ ] Test unitaire associé.
 
 (Explication et justification de ce qui a été fait...)
