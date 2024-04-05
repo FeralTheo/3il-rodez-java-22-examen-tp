@@ -3,6 +3,11 @@ package src;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Permet de stocker un ensemble de tache pour 
+ * en faire une liste
+ * 
+ */
 public class Liste<T> {
 	List<Tache> listDeTaches = new ArrayList<Tache>();	
 	
@@ -19,6 +24,10 @@ public class Liste<T> {
 		this.listDeTaches.remove(tache);
 	}
 	
+	/*
+	 * Affiche les informations de toutes
+	 * les taches contenues dans la liste
+	 */
 	public void afficherDetailListe() {
 		for (int i = 0; i < listDeTaches.size();i++) {
 			listDeTaches.get(i).afficherTache();

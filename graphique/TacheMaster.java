@@ -8,6 +8,10 @@ import javax.swing.*;
 
 public class TacheMaster extends JFrame {
 
+	/*
+	 * Interface graphique pour l'application TacheMaster
+	 * 
+	 */
 	public TacheMaster() {
 	super("Tache Master");
 	JPanel panneau = new JPanel(new GridLayout(0, 1));
@@ -30,6 +34,9 @@ public class TacheMaster extends JFrame {
     JTextField  field3 = new JTextField ("Date échéance");
     panneau.add(field3);
     
+    /*
+     * Bouton pour choisir la prioritée de la tache
+     */
     Border border = BorderFactory.createTitledBorder("Prioritée");
     panneau.setBorder(border);
     ButtonGroup group = new ButtonGroup();
@@ -60,6 +67,10 @@ public class TacheMaster extends JFrame {
     setVisible(true);
 	}
 
+	/*
+	 * Starter pour l'application Tache Master
+	 * 
+	 */
 	public static void main(String[] args) {
 		JFrame frame = new TacheMaster();
 	}
